@@ -17,7 +17,7 @@ function isNight(hour) {
 }
 
 function getWeatherByCity(city) {
-  let URL = `http://api.weatherapi.com/v1/forecast.json?key=${APIKEY}&q=${city}&days=4`;
+  let URL = `https://api.weatherapi.com/v1/forecast.json?key=${APIKEY}&q=${city}&days=4`;
   fetch(URL)
     .then((res) => res.json())
     .then((data) => {
