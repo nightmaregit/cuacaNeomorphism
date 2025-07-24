@@ -202,10 +202,9 @@ body[data-mode="night"] {
 .details-bottom {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 100%;
   margin-top: 30px;
-  margin-bottom: 15px;
+  font-size: 22px;
 }
 
 .line[data-mode="night"] {
